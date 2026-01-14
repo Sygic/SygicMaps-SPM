@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SygicMaps",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-coretech-private/com/sygic/sdk/maps-ios/32.1.2-dev.154/maps-ios-32.1.2-dev.154.zip",
-            checksum: "d5ee915d9a75292b3cc6fba15bcc6e71afc7e5fe63fb7c7da9ee2e687ce51f7e"
+            url: "https://public.repo.sygic.com/repository/maven-sygic-coretech-private/com/sygic/sdk/maps-ios/32.1.2-dev.155/maps-ios-32.1.2-dev.155.zip",
+            checksum: "ab1ff5b1f21b072f35da8269084779c6e7d99429cb3eff6df77ff8131d54b28b"
         )
     ]
 )

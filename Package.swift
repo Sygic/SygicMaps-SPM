@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SygicMaps",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -15,7 +15,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "3.0.0")
+        .package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "2.0.0")
     ],
     targets: [
         .target(
@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SygicMaps",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-coretech-private/com/sygic/sdk/maps-ios/34.1.0-dev.311/maps-ios-34.1.0-dev.311.zip",
-            checksum: "99b14ff8cf684b5439f8fe9fec743e008a42137cfa9545562ee8cf8ec6ac37b0"
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/sdk/maps-ios/28.4.13/maps-ios-28.4.13.zip",
+            checksum: "cf4cabcc3daa747a69ffd9671840422e367453056012907b996677209ffe35c1"
         )
     ]
 )

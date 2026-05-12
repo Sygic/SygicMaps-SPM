@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SygicMaps",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -15,7 +15,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "3.0.0")
+        .package(url: "https://github.com/Sygic/SygicAuth-SPM", from: "2.0.0")
     ],
     targets: [
         .target(
@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "SygicMaps",
-            url: "https://public.repo.sygic.com/repository/maven-sygic-coretech-private/com/sygic/sdk/maps-ios/36.0.0-dev.342/maps-ios-36.0.0-dev.342.zip",
-            checksum: "5968032e19bab5b76149d15870e5ac0751effc4c3144f0d7df596c24b68ccce8"
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/sdk/maps-ios/28.4.17/maps-ios-28.4.17.zip",
+            checksum: "7cf6f7ca0cc2ad5d440a6a5e925b90152f76a331ee13487d7d330173ab35d843"
         )
     ]
 )
